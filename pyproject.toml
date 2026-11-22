@@ -1,0 +1,10 @@
+[project]
+name = "huntbrief"
+version = "0.1.0"
+description = "LLM agent for intelligence-driven threat hunting, mapped to MITRE ATT&CK and the Cyber Kill Chain"
+requires-python = ">=3.10"
+dependencies = ["pyyaml>=6.0", "requests>=2.31"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
